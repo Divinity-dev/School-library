@@ -17,6 +17,8 @@ class Person
     @age >= 18
   end
 
+  public
+
   def correct_name
     name
   end
@@ -25,10 +27,3 @@ class Person
     of_age? || parent_permission == true
   end
 end
-
-person = Person.new(22, 'maximilianus')
-person.correct_name
-capitalized_person = CapitalizeDecorator.new(person)
-capitalized_person.correct_name
-capitalized_primmedperson = TrimmerDecorator.new(capitalized_person)
-capitalized_primmedperson.correct_name
