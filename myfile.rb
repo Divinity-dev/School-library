@@ -17,5 +17,3 @@ puts "Corrected name: #{person.name}"
 capitalized_person = CapitalizeDecorator.new(person)
 capitalized_trimmed_person = TrimmerDecorator.new(capitalized_person)
 puts "Decorated name: #{capitalized_trimmed_person.correct_name}"
-
-
