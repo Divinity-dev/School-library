@@ -47,7 +47,6 @@ This is a library for registering students, treachers and books alike.
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
 - **[getters and setters]**
 - **[classes for person, student and teacher]**
@@ -59,7 +58,6 @@ This is a library for registering students, treachers and books alike.
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -99,7 +97,6 @@ Github pages
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Divine Asiriuwa**
 
@@ -112,7 +109,7 @@ Github pages
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+
 
 - [ ] **[UI console app for users]**
 
