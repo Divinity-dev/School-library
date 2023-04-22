@@ -1,4 +1,5 @@
 require_relative 'app'
+
 def display_menu
   puts 'Please choose an option by entering a number from 1 to 7:'
   puts '1 - List all books'
@@ -33,7 +34,7 @@ def main
   puts '----------------------------------'
   loop do
     display_menu
-    option = gets.chomp.to_i
+    option = gets.chomp
     handle_menu_option(option, app)
     break if option == 7
   end
